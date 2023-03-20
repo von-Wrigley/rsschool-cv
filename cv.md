@@ -2,30 +2,28 @@
 
 __Elina Melkonyan__
 ======================
-******
+
 
 __CONTACT INFORAMATION__
 -------------------------
-******
+
 Telegram: <https://t.me/just_kurlyk_it>
 
 
 __ABOUT ME__ (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении учиться и узнавать новое)
 -------------------------
-******
+
 
 
 
 __SKILLS__ (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
 -------------------------
-******
 
 HTML, CSS, JS
 
 
 __CODE EXAMPLE__
 -------------------------
-******
 
 ```
 function toWeirdCase(string){
@@ -36,27 +34,26 @@ function toWeirdCase(string){
 }
 ```
 
-
-
-##__WORK EXPERIENCE__ Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код.
-******
+__WORK EXPERIENCE__ 
+-------------------------
 
 I dont have any work experience in frontend development.
 
 
 __EDUCATION__ (включая пройденные курсы и тренинги)
 -------------------------
-******
 
 freeCodeCamp (in process)
+
 1.(New) Responsive Web Design 
+
 2.JavaScript Algorithms and Data Structures
 
 
 
 __LANGUAGES__ 
 -------------------------
-******
 
 English: B2
+
 Spansih:B2
