@@ -10,13 +10,14 @@ __CONTACT INFORAMATION__
 Telegram: <https://t.me/just_kurlyk_it>
 
 
-__ABOUT ME__ (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении учиться и узнавать новое)
+__ABOUT ME__ 
 -------------------------
 
+My goal is to develop frontend skills and able to create projects by myself and as a team member. To my mind, I can describe myself as a lifelong learner. All good developers never stop learning and continue to develop new skills. 
 
 
 
-__SKILLS__ (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
+__SKILLS__ 
 -------------------------
 
 HTML, CSS, JS
@@ -45,9 +46,9 @@ __EDUCATION__ (включая пройденные курсы и тренинг�
 
 freeCodeCamp (in process)
 
-1.(New) Responsive Web Design 
+ 1.(New) Responsive Web Design 
 
-2.JavaScript Algorithms and Data Structures
+ 2.JavaScript Algorithms and Data Structures
 
 
 
@@ -56,4 +57,4 @@ __LANGUAGES__
 
 English: B2
 
-Spansih:B2
+Spansih: B2
