@@ -1,15 +1,23 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="C:\Users\Asus\Desktop\tests\shelter\style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/shelter/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/shelter/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/shelter/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/shelter/favicon_io/site.webmanifest">
+   
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io\favicon-16x16.png">
+    <link rel="manifest" href="favicon_io\site.webmanifest">
+    
+    
+    
+    
     <title>Shelter</title>
 </head>
 <body>
@@ -24,9 +32,9 @@
              <div class="header-container">
                 <nav>
                 <a class="nav-1" href="#"> About the shelter </a>
-                <a class="nav-1" href="#"> Our pets </a>
-                <a class="nav-1" href="#"> Help the shelter </a>
-                <a class="nav-1" href="#"> Contacts Us</a>
+                <a class="nav-1" href="file:///C:/Users/Asus/Desktop/tests/shelter/indexhelp.html#our-pets"> Our pets </a>
+                <a class="nav-1" href="#help"> Help the shelter </a>
+                <a class="nav-1" href="#footer"> Contacts Us</a>
                 </nav>
               </div>
         
@@ -38,11 +46,11 @@
       <div class="notonly">
         <div class="notonly-wrapper">
             <div class='notonly-maintext'>
-                <p class="notonly-headline">Not only people need a house</p>
-                <div class="notonly-text"><p>We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p> </div>
-                <input type="button" class="notonly-welcome" value='Make a friend'></input>
+                <h1 class="notonly-headline">Not only people need a house</h1>
+                <p class="notonly-text" >We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
+                <a input type="button"   href="#our_friends"/><div class='our_friends'>Make a friend</div></a>
             </div>
-            <img class="notonly-img" src="C:\Users\Asus\Desktop\tests\shelter\start-screen-puppy.png">
+            <img class="notonly-img" alt="puppy"  src="C:\Users\Asus\Desktop\tests\shelter\start-screen-puppy.png">
         </div>
 
        </div>
@@ -50,68 +58,73 @@
     
     <section class="About">
         <div class="About-wrapper">
-            <img class="about-img" src="C:\Users\Asus\Desktop\tests\shelter\about-pets.png">
+            <img class="cad-img" alt="cat and dog" src="C:\Users\Asus\Desktop\tests\shelter\about-pets.png">
         <div class="About-content">
             <h3 class="about-headline">About the shelter “Cozy House”</h3>
             <p class="about-text">Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</p>
             <p class="about-text">We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</p>
+        </div>
         </div>
     </section>
 
    
         
     
-    <section class="pets">
+    <section class="OurFriends" id="our_friends">
         <div class="pets-wrapper">
-            <h3 class="pets-headline">Our friends who are looking for a house</h3>
+            <h3 class="pets-headline" >Our friends who are looking for a house</h3>
             <div class="pets-slider">
-                <input type="button" class="pets-button-back" value='-1'></input>
+                <button class="pets-button-back" ><img src="C:\Users\Asus\Desktop\tests\shelter\Arrow (1).png" alt="arrow"></button>
                 
                 
                 <div class="pets-slider-animals">
-                    
-                    <div class="pets-slider-animals-card">
-                        <img class="about-img" src="C:\Users\Asus\Desktop\tests\shelter\pets-katrine.png">
-                        <h5>Katrine</h5>
-                        <input type="button" class="pets-slider-animals-button" value='Learn more'></input>
-                    </div>
-                    <div class="pets-slider-animals-card">
-                        <img class="about-img" src="C:\Users\Asus\Desktop\tests\shelter\pets-katrine.png">
-                        <h5>Katrine</h5>
-                        <input type="button" class="pets-slider-animals-button" value='Learn more'></input>
-                    </div>
-                    <div class="pets-slider-animals-card">
-                        <img class="about-img" src="C:\Users\Asus\Desktop\tests\shelter\pets-katrine.png">
-                        <h5>Katrine</h5>
-                        <input type="button" class="pets-slider-animals-button" value='Learn more'></input>
-                    </div>
                   
+                    <div class="pets-slider-animals-card">
+                        <img class="about-img" alt="cat" src="C:\Users\Asus\Desktop\tests\shelter\pets-katrine.png">
+                        <h5 class="pets-names">Katrine</h5>
+                        <input type="button" class="pets-slider-animals-button" value='Learn more'/>
+                   
+                      </div>
+                    <div class="pets-slider-animals-card">
+                   
+                        <img class="about-img"  alt="dog" src="C:\Users\Asus\Desktop\tests\shelter\pets-katrine.png">
+                        <h5 class="pets-names">Jennifer</h5>
+                        <input type="button" class="pets-slider-animals-button" value='Learn more'/>
+                   
+                      </div>
+                
+                    <div class="pets-slider-animals-card">
+                        <img class="about-img"  alt="dog" src="C:\Users\Asus\Desktop\tests\shelter\pets-katrine.png">
+                        <h5 class="pets-names">Woody</h5>
+                        <input type="button" class="pets-slider-animals-button" value='Learn more'/>
+                    </div>
+                
                 </div>
              
-                <input type="button" class="pets-button-further" value='1'><img src="C:\Users\Asus\Desktop\tests\shelter\Arrow (1).png"></input>
+                <button class="pets-button-further"><img src="C:\Users\Asus\Desktop\tests\shelter\Arrow (1).png"   alt="arrow"></button>
 
 
                  
             </div>
-            <input type="button" class="pets-button" value='Get to know the rest'></input>
+            <input type="button" class="pets-button" value='Get to know the rest'/>
 
         </div>
 
     </section>
    
-    <section class="help">
+    <section class="Help" id="help">
         <div class="help-icons">
                <h3 class="help-headline">How you can help our shelter</h3>
                <div class="icons">
-                <img class="about-img" src="C:\Users\Asus\Desktop\tests\shelter\Pet food.png">
-                <img class="about-img" src="C:\Users\Asus\Desktop\tests\shelter\Transportation.png">
-                <img class="about-img" src="C:\Users\Asus\Desktop\tests\shelter\Toys.png">
-                <img class="about-img" src="C:\Users\Asus\Desktop\tests\shelter\Bowls and cups.png">
-                <img class="about-img" src="C:\Users\Asus\Desktop\tests\shelter\Shampoos.png">
-                <img class="about-img" src="C:\Users\Asus\Desktop\tests\shelter\Vitamins.png">
-                <img class="about-img" src="C:\Users\Asus\Desktop\tests\shelter\Medicines.png">
-                <img class="about-img" src="C:\Users\Asus\Desktop\tests\shelter\leashes.png">
-                <img class="about-img" src="C:\Users\Asus\Desktop\tests\shelter\Sleeping area.png">
+                <img class="help-img" src="C:\Users\Asus\Desktop\tests\shelter\Pet food.png"  alt="icon">
+                <img class="help-img" src="C:\Users\Asus\Desktop\tests\shelter\Transportation.png" alt="icon">
+                <img class="help-img" src="C:\Users\Asus\Desktop\tests\shelter\Toys.png" alt="icon">
+                <img class="help-img" src="C:\Users\Asus\Desktop\tests\shelter\Bowls and cups.png" alt="icon">
+                <img class="help-img" src="C:\Users\Asus\Desktop\tests\shelter\Shampoos.png" alt="icon">
+                <img class="help-img" src="C:\Users\Asus\Desktop\tests\shelter\Vitamins.png" alt="icon">
+                <img class="help-img" src="C:\Users\Asus\Desktop\tests\shelter\Medicines.png" alt="icon">
+                <img class="help-img" src="C:\Users\Asus\Desktop\tests\shelter\leashes.png" alt="icon">
+                <img class="help-img" src="C:\Users\Asus\Desktop\tests\shelter\Sleeping area.png" alt="icon">
 
                </div>
 
@@ -122,45 +135,38 @@
     
     
     
-    <section class="donation">
+    <section class="In_addition" >
          <div class="donation-wrapper">
-                  <img src="C:\Users\Asus\Desktop\tests\shelter\donation-dog.png" class="donation-img">
+                  <img  src="C:\Users\Asus\Desktop\tests\shelter\donation-dog.png" class="donation-img" alt="dog">
                   <div class="donation-content">
-                    <h3>You can also make a donation</h3>
-                    <p>Name of the bank / Type of bank account</p>
-                    <div>
-                        <div class="donation-icon"></div>
-                        <p>8380 2880 8028 8791 7435</p>
+                    <h3 class="donation-headline">You can also <br>make a donation</h3>
+                    <p class="donation-subheadline">Name of the bank / Type of bank account</p>
+                    <div class="donation-card">
+                        <img src="C:\Users\Asus\Desktop\tests\shelter\credit-card.svg" class="donation-img" alt="credit card">
+                        <p class="donation-text-icon">8380 2880 8028 8791 7435</p>
                     </div>
-                    <p>
+                    <p class="donation-legalinfo">
                         Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.
                     </p>
 
                   </div>
-
-
          </div>
     </section>
-           
-   
     <footer>
-        <div class="footer-content">
+        <div class="footer-content" id="footer">
             <div class="footer-content1">
-                <p class="footer1">For questions and suggestions</p>
-                <div class='footer2-inside'><img class='footer-icons' src="C:\Users\Asus\Desktop\tests\shelter\icon-email.png" ><p class="footer2">email@shelter.com</p></div>    
-                <div class='footer2-inside'><img class='footer-icons' src="C:\Users\Asus\Desktop\tests\shelter\phone.png" ><p class="footer2">+13 674 567 75 54</p></div>  
+                <h3 class="footer1">For questions and suggestions</h3>
+                <div class='footer2-inside'><img class='footer-icons' alt="icon" src="C:\Users\Asus\Desktop\tests\shelter\icon-email.png" ><p class="footer2">email@shelter.com</p></div>    
+                <div class='footer2-inside'><img class='footer-icons' alt="icon" src="C:\Users\Asus\Desktop\tests\shelter\phone.png" ><p class="footer2">+13 674 567 75 54</p></div>  
             </div>
             <div class="footer-content1">
                 <p class="footer1">We are waiting for your visit</p>
-                <div class='footer2-inside'><img class='footer-icons' src="C:\Users\Asus\Desktop\tests\shelter\pin.png" ><p class="footer2">1 Central Street, Boston (entrance from the store)</p></div>  
-                <div class='footer2-inside'><img class='footer-icons' src="C:\Users\Asus\Desktop\tests\shelter\pin.png" ><p class="footer2">18 South Park, London </p></div>  
+                <div class='footer2-inside'><img class='footer-icons' alt="icon" src="C:\Users\Asus\Desktop\tests\shelter\pin.png" ><p class="footer2">1 Central Street, Boston (entrance from the store)</p></div>  
+                <div class='footer2-inside'><img class='footer-icons' alt="icon" src="C:\Users\Asus\Desktop\tests\shelter\pin.png" ><p class="footer2">18 South Park, London </p></div>  
             </div>
             <div class="footer-picture">
-                <img  src="C:\Users\Asus\Desktop\tests\shelter\footer-puppy.png">
+                <img  alt="puppy" src="C:\Users\Asus\Desktop\tests\shelter\footer-puppy.png">
             </div>
-
-
-
           </div>
     </footer>
  </body>
