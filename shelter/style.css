@@ -9,7 +9,7 @@ body{
     
 }
 .wrapper-firstslide {
-     background-image: url('C:/Users/Asus/Desktop/tests/shelter/start-screen-background.jpg');  
+     background-image: url('https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/start-screen-background.jpg');  
      background-size: cover;
 }
 header{
@@ -526,7 +526,7 @@ color: #B2B2B2;
 
 footer {
     background-size: cover;
-     background-image: url("footer-background (1).png");
+     background-image: url("https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/footer-background%20(1).png");
  }
  
  .footer-content {
