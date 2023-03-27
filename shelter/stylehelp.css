@@ -1,0 +1,264 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+   
+    
+    margin: 0;
+    
+}
+.header{
+    max-width: 1280px;
+   
+    margin-top:0px;
+    padding-left: 0;
+    padding-right: 0px;
+    background:FFFFFF;;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.cozy-house {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 110%;
+letter-spacing: 0.06em;
+color: #545454;
+margin: 0;
+padding: 0%;
+
+}
+.logo1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #292929;
+    margin: 0;
+padding: 0%;
+}
+.nav-1 {
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+color: #545454;
+}
+ 
+.nav-1:hover {
+    color:rgb(247, 0, 255);
+}
+.nav-1:active {
+    color: #F1CDB3;
+    border-bottom: 3px solid #F1CDB3;
+}
+.nav-1:focus {
+    color:#F1CDB3;
+    border-bottom: 3px solid #F1CDB3;
+}
+
+nav > a {
+margin-left: 35px;
+text-decoration: none;
+}
+
+.ourFriends_container {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background: #F6F6F6;
+}
+
+.cards {
+    display: grid;
+  
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 40px;
+    text-align: center;
+    
+    
+}
+
+.head-container {
+    
+    margin-bottom: 45px;
+    margin-top: 0;
+    max-height: 90px;
+    max-width: 400px;
+    text-align: center;
+    padding-left: 400px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%; 
+   letter-spacing: 0.06em;
+    color: #545454;
+}
+.cards-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.cards-article{
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center; 
+}
+
+.btn-article {
+   border: 2px solid #F1CDB3;
+   border-radius: 100px;
+   max-width: 187px;
+   max-height: 52px;
+   align-items: center;
+   padding: 15px 45px;
+}
+
+.btn-article:hover {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.btn-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 340px;
+    max-height: 52px;
+    padding: 0%;
+    margin-left: 430px;
+    padding-top: 45px;
+    
+}
+
+.btn-round {
+    border: 2px solid #CDCDCD;
+     border-radius: 100px;
+     align-items: center;
+    text-align: center;
+     letter-spacing: 0.06em;
+    color: #CDCDCD;
+     width: 52px;
+     height: 52px;
+}
+.btn-round:nth-child(3) {
+    color: black;
+}
+.btn-round:nth-child(3):hover {
+    background-color: #F1CDB3;
+}
+.btn-round:nth-child(4),
+.btn-round:nth-child(5) {
+    border: 2px solid #F1CDB3;
+    color: #545454;
+}
+
+.btn-round:nth-child(4):hover,
+.btn-round:nth-child(5):hover {
+    background-color: #F1CDB3;
+}
+
+footer {
+    background-size: cover;
+     background-image: url("https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/footer-background%20(1).png");
+ }
+ 
+ .footer-content {
+     display: flex;
+     flex-direction: row;
+     column-gap: 10rem;
+     padding-top: 2.5rem;
+     padding-left: 2.5rem;
+     padding-right: 2.5rem;
+     margin: 0;
+ }
+.footer-content1 {
+     display: flex;
+     flex-direction: column;
+     row-gap: 2.5rem;
+     padding-bottom: 3.75rem;
+    
+}
+
+.footer1 {
+ font-family: 'Georgia';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 35px;
+ line-height: 130%;
+ letter-spacing: 0.06em;
+ color: #FFFFFF;
+ margin-bottom: 0ch;
+ max-width: 17.375rem;
+ padding-top: 1rem;
+ margin-top: 0;
+ }
+.footer1:first-child{
+    max-width: 32.375rem;
+}
+
+ .footer2 {
+ font-family: 'Georgia';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 1.25rem;
+ line-height: 115%;
+ letter-spacing: 0.06em;
+ color: #F1CDB3;
+ margin-bottom: 0;
+ margin-top: 0;
+ 
+ }
+.footer2-inside {
+     display: flex;
+     flex-direction: row;
+     column-gap: 1.25rem;
+     
+ }
+.footer-icons{
+     max-width: 2.5rem;
+     max-height: 2rem;
+     align-content: center;
+ 
+ }
+.footer-picture {
+    max-width: 18.75rem;
+    max-height: 19.375rem;
+    
+    padding-top:1.875rem;
+}
