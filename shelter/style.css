@@ -1,12 +1,16 @@
 
 
+html{
+    scroll-behavior: smooth;
+}
 body{
-    max-width: 1280px;
+    min-width: 1280px;
     margin: 0;
     
 }
 .wrapper-firstslide {
-    background-color: yellowgreen;
+     background-image: url('C:/Users/Asus/Desktop/tests/shelter/start-screen-background.jpg');  
+     background-size: cover;
 }
 header{
     max-width: 1280px;
@@ -67,11 +71,20 @@ font-size: 15px;
 line-height: 160%;
 color: #545454;
 text-decoration: none;
+cursor: pointer;
 }
 
-
-
-
+.nav-1:hover {
+    color: #F6F6F6;
+}
+.nav-1:active {
+    color: #F6F6F6;
+    border-bottom: 3px solid #F1CDB3;
+}
+.nav-1:focus {
+    color: #F6F6F6;
+    border-bottom: 3px solid #F1CDB3;
+}
 
 nav > a {
 margin-left: 35px;
@@ -125,21 +138,33 @@ line-height: 160%;
 color: #CDCDCD;
 margin: 0;
 }
-.notonly-welcome{
+
+
+.our_friends{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border: none;
     background: #F1CDB3;
     border-radius: 100px;
     align-items: center;
-    padding: 15px 45px;
+    text-decoration: none;
+    
     max-width: 207px;
     max-height: 52px;
-    font-family: 'Georgia';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 130%;
-letter-spacing: 0.06em;
-color: #292929;
-border: none;
+    padding: 15px 45px;
+}
+
+.our_friends:hover {
+
+    background-color: #e2ae88;
+    border: 1px solid F1CDB3;
+    cursor: pointer;
+   
 }
 
 
@@ -155,9 +180,10 @@ border: none;
     padding-left: 175px;
     padding-right: 175px;
     gap: 120px;
+    justify-content: center;
 }
 
-.about-img{
+.cad-img{
     max-width: 300px;
     max-height: 408px;
 }
@@ -195,8 +221,8 @@ margin: 0;
 
 
 /*Начало Pets */
-.pets {
-    background: #F6F6F6;
+.OurFriends {
+    background-color: #F6F6F6;
    
 }
 .pets-wrapper{
@@ -228,15 +254,29 @@ max-width: 30%;
 max-height: 90px;
 margin: 0;
 }
-
+.pets-names {
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #545454;
+margin-bottom: 0;
+margin-top: 0;
+}
 .pets-slider {
-    background-color: aqua;
+    
     display: flex;
     flex-direction: row;
     max-height:435px;
     max-width: 1200px;
     margin-right:0;
     align-items: center;
+    
 }
 
 .pets-slider-animals {
@@ -244,26 +284,41 @@ margin: 0;
     grid-auto-columns: 200px;
     grid-template-columns: repeat(3, 270px);
     column-gap: 90px;
-    background-color: #F1CDB3;
    
 }
 
+
+
 .pets-button-back {
     margin-right: 51px;
-    padding: 23px 19px 23px 19px;
     border: 2px solid #F1CDB3;
     border-radius: 100px;
+    background-color: transparent;
+    width: 52px;
+    height: 52px;
 }
+.pets-button-back:hover {
+    background-color: #e2ae88;
+    border: none;
+    cursor: pointer;
+}
+
 
 .pets-button-further {
     margin-left: 51px;
     margin-right: 0;
-    padding: 23px 19px 23px 19px;
     border: 2px solid #F1CDB3;
     border-radius: 100px;
-   
-
+    width: 52px;
+    height: 52px;
+    background-color: transparent;
 }
+.pets-button-further:hover {
+    background-color: #e2ae88;
+    border: none;
+    cursor: pointer;
+}
+ 
 
 .pets-button
 {
@@ -281,11 +336,52 @@ margin: 0;
     letter-spacing: 0.06em;
     color: #292929;
     margin-bottom: 0px;
+   
+}
+.pets-button:hover {
+    background-color: #e2ae88;
+    cursor: pointer;
 }
 
+    
+
+
+
+
 .pets-slider-animals-card {
-   max-width: 270px;
-    max-height:435px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+  background-color: #FAFAFA;
+  border-radius: 9px;
+}
+
+
+
+.pets-slider-animals-button {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 45px;
+gap: 10px;
+width: 187px;
+height: 52px;
+border: 2px solid #F1CDB3;
+border-radius: 100px;
+margin-bottom: 30px;
+background-color: transparent;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #292929;
+}
+.pets-slider-animals-button:hover{
+    background-color: #F1CDB3;
+    cursor: pointer;
 }
 
 
@@ -332,13 +428,13 @@ color: #545454;
 
 
 
-.about-img:nth-child(6){
+.help-img:nth-child(6){
     margin-left: 84px;
 }
 
 
 
-.donation {
+.In_addition {
   
     
     background-color: #F6F6F6;
@@ -349,21 +445,84 @@ color: #545454;
 .donation-wrapper {
     display: flex;
     flex-direction: row;
-    
+    row-gap: 20px;
     max-width: 915px;
     max-height: 282px;
     
     column-gap: 30px;
     padding-top: 80px;
     padding-bottom: 100px;
+    padding-bottom: 100px;
     padding-left: 184px;
     padding-right: 183px;
 }
 
-donation-img{
+.donation-img{
     max-width: 505px;
     max-height: 261px;
+    
 }
+
+.donation-headline{
+ font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+color: #545454;
+margin-bottom: 0;
+margin-top: 0;
+}
+.donation-subheadline {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 110%;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+color: #545454;}
+
+.donation-text-icon{
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+color: #545454;
+margin: 0;
+}
+
+.donation-card {
+    display: flex;
+    flex-direction: row;
+    max-width: 321px;
+    column-gap: 15px;
+    background-color: #F1CDB3;
+    padding: 10px 15px;
+    border-radius: 9px;
+}
+
+.donation-legalinfo{
+    font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
+color: #B2B2B2;
+}
+
+
+
 
 footer {
     background-size: cover;
@@ -384,6 +543,7 @@ footer {
      flex-direction: column;
      row-gap: 2.5rem;
      padding-bottom: 3.75rem;
+    
 }
 
 .footer1 {
@@ -413,19 +573,23 @@ footer {
  color: #F1CDB3;
  margin-bottom: 0;
  margin-top: 0;
+ 
  }
 .footer2-inside {
      display: flex;
      flex-direction: row;
-     column-gap: 1.25rem; 
+     column-gap: 1.25rem;
+     
  }
 .footer-icons{
      max-width: 2.5rem;
      max-height: 2rem;
      align-content: center;
+ 
  }
 .footer-picture {
     max-width: 18.75rem;
     max-height: 19.375rem;
+    
     padding-top:1.875rem;
 }
