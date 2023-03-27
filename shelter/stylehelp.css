@@ -1,3 +1,8 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
    
     
@@ -63,12 +68,18 @@ line-height: 160%;
 color: #545454;
 }
  
-.nav-1:nth-of-type(2){
-        text-decoration-line: dashed;
-
-        background-color: aqua;
-        color: red;
+.nav-1:hover {
+    color:rgb(247, 0, 255);
 }
+.nav-1:active {
+    color: #F1CDB3;
+    border-bottom: 3px solid #F1CDB3;
+}
+.nav-1:focus {
+    color:#F1CDB3;
+    border-bottom: 3px solid #F1CDB3;
+}
+
 nav > a {
 margin-left: 35px;
 text-decoration: none;
@@ -95,7 +106,7 @@ text-decoration: none;
 }
 
 .head-container {
-    color:aqua;
+    
     margin-bottom: 45px;
     margin-top: 0;
     max-height: 90px;
@@ -138,6 +149,11 @@ h3 {
    padding: 15px 45px;
 }
 
+.btn-article:hover {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
 .btn-navigation {
     display: flex;
     flex-direction: row;
@@ -156,11 +172,26 @@ h3 {
      align-items: center;
     text-align: center;
      letter-spacing: 0.06em;
-     color: aqua;
+    color: #CDCDCD;
      width: 52px;
      height: 52px;
 }
+.btn-round:nth-child(3) {
+    color: black;
+}
+.btn-round:nth-child(3):hover {
+    background-color: #F1CDB3;
+}
+.btn-round:nth-child(4),
+.btn-round:nth-child(5) {
+    border: 2px solid #F1CDB3;
+    color: #545454;
+}
 
+.btn-round:nth-child(4):hover,
+.btn-round:nth-child(5):hover {
+    background-color: #F1CDB3;
+}
 
 footer {
     background-size: cover;
