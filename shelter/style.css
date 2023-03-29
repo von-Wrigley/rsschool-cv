@@ -177,15 +177,13 @@ margin: 0;
 
 .About-wrapper{
     max-height: 488px;
-    max-width: 1200px;
     padding-top: 80px;
     padding-bottom: 100px;
     display: flex;
     flex-direction: row;
-    padding-left: 175px;
-    padding-right: 175px;
     gap: 120px;
     justify-content: center;
+    align-items: center;
 }
 
 .cad-img{
@@ -201,12 +199,12 @@ margin: 0;
 }
 
 .about-headline{
-    font-family: 'Georgia';
+       font-family: 'Georgia';
 font-style: normal;
 font-weight: 400;
 font-size: 35px;
 line-height: 130%;
-display: flex;
+max-width: 370px;
 align-items: center;
 letter-spacing: 0.06em;
 color: #545454;
