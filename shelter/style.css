@@ -9,27 +9,28 @@ body{
     
 }
 .wrapper-firstslide {
-     background-image: url('https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/start-screen-background.jpg');  
+     background-image: url('C:/Users/Asus/Desktop/tests/shelter/start-screen-background.jpg');  
      background-size: cover;
+     display: flex;
+     flex-direction: column;    
+     justify-content: space-between;
+     align-items: center;
 }
 header{
     max-width: 1280px;
-   
     margin-top:0px;
     padding-left: 0;
     padding-right: 0px;
     background:FFFFFF;;
-   
     justify-content: space-between;
-    align-items: center;
+  
 }
 .header-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 60px;
-    padding-left: 40px;
-    padding-right: 40px;
+    column-gap: 573px;
 }
 .header-logo {
     display: flex;
