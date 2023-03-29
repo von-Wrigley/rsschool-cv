@@ -398,11 +398,10 @@ color: #292929;
 .help-icons{
     padding-top: 80px;
     padding-bottom: 100px;
-    padding-left: 47px;
-    padding-right: 47px;
     display: flex;
     flex-direction: column;
        row-gap: 55px;
+    align-items: center;
 }
 .help-headline {
     margin: 0 auto;
@@ -437,7 +436,7 @@ color: #545454;
     grid-template-rows: 1fr;
     justify-content: space-evenly;
     justify-items: center;
-   
+    column-gap: 120px;
 }
 
 
