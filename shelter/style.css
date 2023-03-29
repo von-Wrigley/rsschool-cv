@@ -63,6 +63,12 @@ color: #FFFFFF;
     margin: 0;
     padding: 0%;
 }
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+} 
 .nav-1 {
     font-family: 'Arial';
 font-style: normal;
@@ -86,9 +92,6 @@ cursor: pointer;
     border-bottom: 3px solid #F1CDB3;
 }
 
-nav > a {
-margin-left: 35px;
-}
 
 
 
