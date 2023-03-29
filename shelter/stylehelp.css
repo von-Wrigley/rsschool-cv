@@ -80,6 +80,14 @@ color: #545454;
     border-bottom: 3px solid #F1CDB3;
 }
 
+.nav-1:nth-child(2) {
+    color: black;
+    position: relative;
+    pointer-events: none;
+    border-bottom: 3px solid #F1CDB3;
+}
+
+
 nav > a {
 margin-left: 35px;
 text-decoration: none;
