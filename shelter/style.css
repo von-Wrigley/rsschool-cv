@@ -9,7 +9,7 @@ body{
     
 }
 .wrapper-firstslide {
-     background-image: url('C:/Users/Asus/Desktop/tests/shelter/start-screen-background.jpg');  
+     background-image: url('https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/gh-pages/shelter/about/start-screen-background.jpg'), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%); ;  
      background-size: cover;
      display: flex;
      flex-direction: column;    
