@@ -94,9 +94,12 @@ cursor: pointer;
     border-bottom: 3px solid #F1CDB3;
 }
 
-
-
-
+.nav-1:nth-child(1) {
+    color: #fafafa;
+    position: relative;
+    pointer-events: none;
+    border-bottom: 3px solid #F1CDB3;
+}
 
 .notonly{
     margin-top: 60px;
