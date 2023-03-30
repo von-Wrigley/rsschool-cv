@@ -112,25 +112,25 @@ margin-left: 35px;
 text-decoration: none;
 }
 
+
+
 .ourFriends_container {
-    padding-left: 40px;
-    padding-right: 40px;
+    background-size: 100% 100%;
     padding-top: 80px;
     padding-bottom: 100px;
     background: #F6F6F6;
+    background-size: cover;
 }
 
 .cards {
     display: grid;
-  
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(4, minmax(270px, 1fr));
     grid-template-rows: repeat(2, 1fr);
     row-gap: 30px;
     column-gap: 40px;
-    text-align: center;
+    text-align: center;}
     
     
-}
 
 .head-container {
     
