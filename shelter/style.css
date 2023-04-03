@@ -1,15 +1,18 @@
 
-
 html{
     scroll-behavior: smooth;
 }
 body{
-    min-width: 1280px;
+    
     margin: 0;
     
 }
 .wrapper-firstslide {
-     background-image: url('https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/gh-pages/shelter/about/start-screen-background.jpg'), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);  
+
+     background-image:  url('https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/gh-pages/shelter/about/start-screen-background.jpg'), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);  
+
+ 
+
      background-size: cover;
      display: flex;
      flex-direction: column;    
@@ -17,24 +20,28 @@ body{
      align-items: center;
 }
 header{
-    max-width: 1280px;
+
+    width: 100%;
     margin-top:0px;
     padding-left: 0;
     padding-right: 0px;
-    justify-content: space-between;
-  
 }
 .header-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 60px;
-    column-gap: 573px;
+    padding-top: 30px;
+    column-gap: 23%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+
 }
 .header-logo {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    width: 27%;
 }
 .cozy-house {
     font-family: 'Georgia';
@@ -51,6 +58,8 @@ header{
     text-decoration: none;
     cursor: pointer;
     
+
+
 }
 .logo1 {
     font-family: 'Arial';
@@ -66,11 +75,17 @@ color: #FFFFFF;
     padding: 0%;
 }
 
+
+
 .navigation {
     display: flex;
     flex-direction: row;
     column-gap: 35px;
-} 
+
+}
+
+
+
 .nav-1 {
     font-family: 'Arial';
 font-style: normal;
@@ -82,7 +97,7 @@ text-decoration: none;
 cursor: pointer;
 }
 
-.nav-1:hover {
+nav-1:hover {
     color: #F6F6F6;
 }
 .nav-1:active {
@@ -94,6 +109,7 @@ cursor: pointer;
     border-bottom: 3px solid #F1CDB3;
 }
 
+
 .nav-1:nth-child(1) {
     color: #fafafa;
     position: relative;
@@ -101,12 +117,17 @@ cursor: pointer;
     border-bottom: 3px solid #F1CDB3;
 }
 
+.burger {
+    display: none;
+}
+
+
 .notonly{
     margin-top: 60px;
 }
 .notonly-img {
-    max-width: 698px;
-    max-height: 728px;
+    max-width:60%;
+   
 }
 .notonly-wrapper {
     display: flex;
@@ -119,9 +140,9 @@ cursor: pointer;
 .notonly-maintext {
     display: flex;
     flex-direction: column;
-    row-gap: 42px;
-    margin-top: 163px;
-    max-width: 460px;
+    row-gap: 9%;
+    margin-top: 14%;
+    max-width: 33.8%;
     
 }
 .notonly-headline {
@@ -161,7 +182,6 @@ margin: 0;
     border-radius: 100px;
     align-items: center;
     text-decoration: none;
-    cursor:pointer;
     max-height: 52px;
     padding: 15px 45px;
 }
@@ -178,7 +198,7 @@ margin: 0;
 /*  Начало About */
 
 .About-wrapper{
-    max-height: 488px;
+
     padding-top: 80px;
     padding-bottom: 100px;
     display: flex;
@@ -194,7 +214,7 @@ margin: 0;
 }
 .About-content{
     max-width: 430px;
-    max-height: 380px;
+   
     display: flex;
     flex-direction: column;
     row-gap: 25px;
@@ -277,8 +297,7 @@ margin-top: 0;
     
     display: flex;
     flex-direction: row;
-    max-height:435px;
-    max-width: 1200px;
+
     margin-right:0;
     align-items: center;
     
@@ -398,12 +417,16 @@ color: #292929;
     
 }
 .help-icons{
-    padding-top: 80px;
-    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
-       row-gap: 55px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+    row-gap: 55px;
     align-items: center;
+    width: 94%;
+    margin: 0 auto;
+
 }
 .help-headline {
     margin: 0 auto;
@@ -427,7 +450,6 @@ color: #545454;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: 1fr;
-    -webkit-box-pack: justify;
     justify-content: space-between;
     justify-items: center;
     
@@ -440,6 +462,22 @@ color: #545454;
     justify-items: center;
     column-gap: 120px;
 }
+
+.help_for_tablet{
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    column-gap: 9%;
+    row-gap: 55px;
+
+    }
+
+
+
+
+
+
 
 
 
@@ -456,7 +494,6 @@ color: #545454;
     align-items: center;
     justify-items: center;
     justify-content:center;
-
 
 }
 
@@ -522,42 +559,25 @@ color: #B2B2B2;
 
 footer {
     background-size: cover;
-     background-image: url("https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/footer-background%20(1).png");
+     background-image: url("footer-background (1).png");
  }
  
- .footer-content {
-     display: flex;
-     flex-direction: row;
-     column-gap: 10rem;
-     padding-top: 2.5rem;
-     padding-left: 2.5rem;
-     padding-right: 2.5rem;
-     margin: 0;
- }
-.footer-content {
+ .footer-width {
      display: grid;
-    grid-template-areas: 'footer-content1 footer-content1 footer-content1';
+    grid-template-columns: repeat(3, 1fr);
+
      column-gap: 9.6rem;
      padding-top: 10px;
-     align-items: center;
-    justify-items: center;
-    justify-content:center;
+     
    
  }
-.footer-content1 {
-     display: flex;
-     flex-direction: column;
-     row-gap: 2.5rem;
-    
 
-    
-}
-.footer-content1:first-child {
+.footer-content1 {
     max-width: 282px;
 }
-.footer-content1:nth-child(2){
+.footer-content2{
     max-width: 320px;
- 
+   
     
 }
 .footer1 {
@@ -605,7 +625,8 @@ footer {
      max-width: 2.5rem;
      max-height: 2rem;
      align-content: center;
-   padding-right: 20px;
+     padding-right: 20px;
+ 
  }
 .footer-picture {
     max-width: 18.75rem;
@@ -613,3 +634,429 @@ footer {
     
     padding-top:1.875rem;
 }
+.icons-wrapper {
+    display: flex;
+    flex-direction: row;
+  
+}
+@media (max-width:1240px) {
+ .notonly-wrapper {
+    flex-direction: column;
+    
+ }
+
+.header-main {
+
+ column-gap: 15%;
+}
+}
+
+@media (max-width:768px) {
+    .header-main {
+        column-gap: 1%;
+       }
+
+    .header-container {
+        width: 63%;
+    }
+    .notonly-wrapper {
+        
+        flex-direction: column;
+        row-gap: 100px;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
+     }
+
+     .notonly-maintext{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        max-width: 79%;
+        row-gap: 42px;
+     }
+
+     .notonly-maintext a {
+       
+        text-align: center;
+     }
+
+ .notonly-img {
+    width: 91%;
+ }
+ .About-wrapper {
+    flex-direction: column-reverse;
+    row-gap: 80px;
+ }
+
+ #doggo{
+    display: none;
+ }
+ .pets-slider-animals {
+    grid-template-columns: repeat(2, 270px);
+    column-gap: 5%;
+ }
+ 
+.pets-button-back {
+        margin-right: 10px;
+    }
+    .pets-button-further {
+        margin-right: 1px;
+    }
+    .pets-headline{
+        width: 50%;
+    }
+
+
+    .help_for_tablet{
+        display: grid;
+     
+    }
+.footer-content1{
+    display: flex;
+    flex-direction: column;
+}
+.footer-width {
+    display: grid;
+    grid-template-areas: 'footer-content1 footer-content2'
+                            'footer-picture footer-picture';
+    
+}
+
+
+ }
+
+
+
+@media (max-width:767px) {
+   
+    .header-main {
+        column-gap: 10%;
+       }
+   .navigation {
+    display: inline-flex;
+    max-width: 443px;
+   }
+
+    nav > a{
+    display: none;
+}
+   .header-container {
+    display: none;
+   }
+.burger {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: 30px;
+  }
+
+.burger:before,
+.burger:after,
+.burger div {
+   
+  content: "";
+  display: block;
+ 
+  border-top: 2px solid #F1CDB3;
+}
+
+}
+@media (max-width:902px){
+    .donation-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 17%;
+        padding-right: 17%;
+        align-items: center;
+        max-width: 80%;
+      
+    }
+
+ .donation-content {
+    width:75%;
+    align-items:flex-start;
+    display: flex;
+    flex-direction: column;
+ }
+
+.donation-legalinfo {
+    max-width: 100%;
+}
+}
+
+@media (max-width:1214px){
+      #doggo{
+    display: none;
+ }
+ .pets-slider-animals {
+    grid-template-columns: repeat(2, 270px);
+    column-gap: 5%;
+ }
+ 
+.pets-button-back {
+        margin-right: 10px;
+    }
+    .pets-button-further {
+        margin-right: 1px;
+    }
+    .pets-headline{
+        width: 50%;
+    }
+}
+@media (max-width:985px){
+    
+    .flex-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top:5%;
+        padding-left: 4%;
+        padding-right: 4%;
+        justify-items: center;
+    }
+
+    
+    
+ 
+      
+    .footer-width {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  align-items: center;
+    }
+
+    .footer {
+        font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+text-align: center;
+letter-spacing: 0.06em;
+    }
+
+
+.header-logo {
+    width: 35%;
+}
+.head-container{
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+.footer1 {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+text-align: center;
+letter-spacing: 0.06em;
+vertical-align: baseline;
+}
+
+.footer-puppy1 {
+    max-width: 260px;
+}  
+.footer-picture {
+    padding: 0%;
+}
+.footer-content1{
+    display: flex;
+    column-gap: 19px;
+    justify-content: space-between;
+    
+}
+
+.footer-content1:first-child{
+    max-width: 80%;
+    display: flex;
+    column-gap: 19px;
+    justify-content: space-between;
+}
+.footer1:first-child{
+    max-width: 73%;
+    text-indent: 0%;
+    
+}
+
+.footer2-inside {
+    justify-items: stretch;
+}
+}
+
+
+@media (max-width:448px){
+   .help_for_tablet{
+    grid-template-columns: repeat(2, 130px);
+    row-gap: 30px;
+    column-gap: 30px;
+    display: grid;
+    justify-content: space-between;
+   
+   }
+ 
+   .header-logo{
+    width: 70%;
+   }
+    .notonly-headline{
+        font-size: 25px;
+        text-align: center;
+        align-items: center;
+       width: 70%;
+    }
+    .notonly-wrapper{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+      .notonly-text{
+        width: 100%;
+        text-align:center;
+      }
+  .our_friends {
+    text-align: center;
+
+  }
+ .notonly-maintext {
+    max-width: 100%;
+    align-items: center;
+   
+ }
+ .notonly-img {
+    max-width: 87%;
+ }
+
+
+.about-headline {
+    font-size: 25px;
+    text-align: center;
+}
+.cad-img {
+    max-width: 93%;
+}
+.About-wrapper {
+    padding: 42px 23px;
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 42px;
+}
+
+.about-text {
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+text-align: justify;
+color: #4C4C4C;
+}
+
+.pets-wrapper{
+    padding: 42px 10px;
+    row-gap: 114px;
+}
+.pets-headline {
+   
+    font-size: 25px;
+}
+
+#doggo2 {
+    display: none;
+}
+.pets-slider {
+   display: grid;
+   grid-template-areas: 'pets-slider-animals-card'
+                        'pets-button-back   pets-button-further';
+  
+                       
+}
+#doggo3 {
+    order: 0;
+}
+.pets-button-back {
+   position: absolute;
+   margin-left: 41px;
+   margin-bottom: -529px;
+}
+.pets-button-further {
+    position: absolute;
+    margin-left: 177px;
+    margin-bottom: -529px;
+}
+.pets-slider-animals {
+    display: flex;
+    
+}
+.pets-headline{
+    width: 80%;
+   
+}
+
+.donation-content{
+    width: 320px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: flex;
+  justify-items: center;
+    align-items: center;
+ }
+
+ .donation-wrapper{
+  max-width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+ 
+ }
+
+ .donation-headline{
+    font-size: 25px;
+    text-align: center;
+    
+ }
+ .donation-text-icon {
+    font-size: 15px;
+ }
+ .donation-img {
+    max-width: 260px;
+ }
+ .donation-legalinfo{
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 12px;
+ }
+
+.footer-content1:first-child{
+   
+   max-width: 100%;
+   
+}
+.footer-content1 {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+.footer-content2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    
+}
+.footer-width{
+    row-gap: 40px;
+    padding-top: 30px;
+}
+.footer-picture-size{
+    width: 260px;
+}
+}
+
+
