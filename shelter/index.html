@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +11,10 @@
     <link rel="stylesheet" href="style.css">
    
     
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io\apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io\favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io\favicon-16x16.png">
-    <link rel="manifest" href="favicon_io\site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
     
     
     
@@ -22,22 +23,22 @@
 </head>
 <body>
     <section class="wrapper-firstslide">
-        <header class='header'>  
+        <header class='header' id="main-page">  
             <div class='header-main'>  
             
              <div class="header-logo">
-                <p class="cozy-house ">Cozy House</p>
+                <a class="cozy-house" href="#">Cozy House</a>
                 <p class="logo1">Shelter for pets in Boston</p>
              </div>
              <div class="header-container">
-                <nav>
+                <nav class='navigation'>
                 <a class="nav-1" href="#"> About the shelter </a>
-                <a class="nav-1" href="file:///C:/Users/Asus/Desktop/tests/shelter/indexhelp.html#our-pets"> Our pets </a>
+                <a class="nav-1" href="https://von-wrigley.github.io/rsschool-cv/shelter/indexhelp.html#our-pets"> Our pets </a>
                 <a class="nav-1" href="#help"> Help the shelter </a>
-                <a class="nav-1" href="#footer"> Contacts Us</a>
+                <a class="nav-1" href="#footer"> Contacts</a>
                 </nav>
               </div>
-        
+         <div class="burger"><div></div></div> 
             </div>
         </header>
      
@@ -48,7 +49,7 @@
             <div class='notonly-maintext'>
                 <h1 class="notonly-headline">Not only people need a house</h1>
                 <p class="notonly-text" >We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
-                <a input type="button"   href="#our_friends"/><div class='our_friends'>Make a friend</div></a>
+                <form action="#our_friends"><button class='our_friends'>Make a friend</button></form>
             </div>
             <img class="notonly-img" alt="puppy"  src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/start-screen-puppy.png">
         </div>
@@ -106,8 +107,11 @@
 
                  
             </div>
-            <input type="button" class="pets-button" value='Get to know the rest'/>
-
+           
+            <form action="https://von-wrigley.github.io/rsschool-cv/shelter/indexhelp.html#our-pets">
+                       <button class="pets-button">Get to know the rest</button>
+                                            </form>
+     
         </div>
 
     </section>
@@ -115,18 +119,20 @@
     <section class="Help" id="help">
         <div class="help-icons">
                <h3 class="help-headline">How you can help our shelter</h3>
-               <div class="icons">
+               <div class="icons-above">
                 <img class="help-img" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/Pet%20food.png"  alt="icon">
                 <img class="help-img" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/Transportation.png" alt="icon">
                 <img class="help-img" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/Toys.png" alt="icon">
                 <img class="help-img" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/Bowls%20and%20cups.png" alt="icon">
                 <img class="help-img" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/Shampoos.png" alt="icon">
-                <img class="help-img" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/Vitamins.png" alt="icon">
+            </div>
+                   <div class="icons-beneath">
+                 <img class="help-img" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/Vitamins.png" alt="icon">
                 <img class="help-img" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/Medicines.png" alt="icon">
                 <img class="help-img" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/leashes.png" alt="icon">
                 <img class="help-img" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/Sleeping%20area.png" alt="icon">
-
-               </div>
+                   </div>
+               
 
         </div>
 
@@ -143,7 +149,7 @@
                     <p class="donation-subheadline">Name of the bank / Type of bank account</p>
                     <div class="donation-card">
                         <img src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/3a26cf2ebf1ebe168d8d70095196e76589e56c38/shelter/about/credit-card.svg" class="donation-img" alt="credit card">
-                        <p class="donation-text-icon">8380 2880 8028 8791 7435</p>
+                        <a class="donation-text-icon" href="#">2880 8028 8791 7435</a> 
                     </div>
                     <p class="donation-legalinfo">
                         Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.
@@ -151,21 +157,21 @@
 
                   </div>
          </div>
-    </section>
+    </section> 
     <footer>
-        <div class="footer-content" id="footer">
+        <div class="footer-width" id="footer">
             <div class="footer-content1">
                 <h3 class="footer1">For questions and suggestions</h3>
-                <div class='footer2-inside'><img class='footer-icons' alt="icon" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/icon-email.png" ><p class="footer2">email@shelter.com</p></div>    
-                <div class='footer2-inside'><img class='footer-icons' alt="icon" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/phone.png" ><p class="footer2">+13 674 567 75 54</p></div>  
+                <div class='footer2-inside'><a href="mailto:email@shelter.com" class="footer2"><img class='footer-icons' alt="icon" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/icon-email.png" ></a><h4 class="footer2">email@shelter.com</h4></div>    
+               <div class='footer2-inside'><a href="tel:+1234567890" class="footer2"><img class='footer-icons' alt="icon" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/phone.png" ></a><h4 class="footer2">+13 674 567 75 54</h4></div>   
             </div>
             <div class="footer-content1">
                 <p class="footer1">We are waiting for your visit</p>
-                <div class='footer2-inside'><img class='footer-icons' alt="icon" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/pin.png" ><p class="footer2">1 Central Street, Boston (entrance from the store)</p></div>  
-                <div class='footer2-inside'><img class='footer-icons' alt="icon" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/pin.png" ><p class="footer2">18 South Park, London </p></div>  
+                <div class='footer2-inside'><a class="footer-img" href="https://goo.gl/maps/B8nDn9U8a1gye7Xg6" target="_blank"><img class='footer-icons' alt="icon" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/pin.png" ></a><h4 class="footer2">1 Central Street, Boston (entrance from the store)</h4></div>
+                <div class='footer2-inside'><a class="footer2" href="https://goo.gl/maps/WErrPpsFqrjv5X5i7" target="_blank" ><img class='footer-icons' alt="icon" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/pin.png" ></a><h4 class="footer2"> 18 South Park, London </h4></div>
             </div>
             <div class="footer-picture">
-                <img  alt="puppy" alt="puppy" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/footer-puppy.png">
+                <img alt="puppy"  class="footer-picture-size" src="https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/shelter/shelter/about/footer-puppy.png">
             </div>
           </div>
     </footer>
