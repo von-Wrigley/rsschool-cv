@@ -121,7 +121,9 @@ nav-1:hover {
     display: none;
 }
 
-
+.burger-menu {
+    display: none;
+}
 .notonly{
     margin-top: 60px;
 }
@@ -760,6 +762,24 @@ footer {
  
   border-top: 2px solid #F1CDB3;
 }
+    
+.burger-menu {
+    z-index: 10;
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    background: #292929;
+    }
+ 
+.bg_nav > ul {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    align-items: center;
+    padding-top: 50px;
+    row-gap: 40px;
+    }
+  
 
 }
 @media (max-width:902px){
