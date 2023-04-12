@@ -7,6 +7,9 @@ body{
     margin: 0;
     
 }
+.burger-wrapth {
+    display: none;
+}
 .wrapper-firstslide {
 
      background-image:  url('https://raw.githubusercontent.com/von-Wrigley/rsschool-cv/gh-pages/shelter/about/start-screen-background.jpg'), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);  
@@ -121,7 +124,9 @@ nav-1:hover {
     display: none;
 }
 
-
+.burger-menu {
+    display: none;
+}
 .notonly{
     margin-top: 60px;
 }
@@ -744,24 +749,176 @@ footer {
    .header-container {
     display: none;
    }
-.burger {
+
+ #burger {
     display: flex;
     flex-direction: column;
-    row-gap: 8px;
+
     width: 30px;
+
   }
 
-.burger:before,
-.burger:after,
-.burger div {
-   
+#burger span:before,
+#burger span:after,
+#burger span {
+  z-index: 10;
   content: "";
   display: block;
+  border-top: 2px solid #000000;
+  margin-top: 5px;
+}
+
+#burger.close span {
+    z-index: 10;
+    top: 13px;
+    width: 27px;
+    border-top: 2px solid #F1CDB3;
+    transform: rotate(90deg);
+    transition: transform 0.4s;
+  }
+#burger.close span:before {
+    top: 0px;
+    z-index: 10;
+    border-top: 2px solid #F1CDB3;
+  }
+#burger.close span:after {
+    top: 0px;
+    left:0;
+    z-index: 10;
+    border-top: 2px solid #F1CDB3;
+  }
+
+  #burger.open span {
+    z-index: 10;
+    top: 13px;
+    width: 27px;
+    border-top: 2px solid #000000;
+    transform: rotate(180deg);
+    transition: transform 0.4s;
+  }
+#burger.open span:before {
+    top: 0px;
+    z-index: 10;
+    border-top: 2px solid #000000;
+  }
+#burger.open span:after {
+    top: 0px;
+    left:0;
+    z-index: 10;
+    border-top: 2px solid #000000;
+  }
  
-  border-top: 2px solid #F1CDB3;
+
+.burger-wrapth {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    row-gap: 158px;
+  }
+
+  #burger-menu {
+ 
+    position: fixed;
+    transform: translateX(100%);
+    transition: transform 0.4s;
+    top: 0;
+    
+    right: 0;
+    bottom: 0;
+   padding-top: 248px;
+    background: black;
+    color: white;
+    list-style: none;
+
+   width: 320px;
+   height: 100%;
+  }
+  
+  #burger-menu.overlay{
+    transform: translateX(0);
+  width: 320px;
+    right: 0;
+    bottom: 0;
+    padding-top: 248px;
+    z-index: 2;
+    background: #292929;
+  }
+
+  #burger-menu.hide {
+    position: fixed;
+    transform: translateX(100%);
+    transition: transform 0.4s;
+    top: 0;
+    right: 0;
+    bottom: 0;
+   padding-top: 248px;
+    background: #292929;
+    color: white;
+    list-style: none;
+   width: 320px;
+   height: 100%;
+  }
+
+
+  
+  #burger-menu li{
+    list-style:none;
+  }
+  #burger-menu a{
+    color:#fff;
+    display:block;
+    font-size: 32px;
+    margin-bottom:30px;
+    text-decoration:none;
+  }
+
+  .bg_nav_item {
+    width: 243px;
+height: 51px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 160%;
+color: #FAFAFA;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 43px;
+    text-align: center;
+  }
+  .first_item {
+    color: #FAFAFA;
+    pointer-events: none;
+    border-bottom: 3px solid #F1CDB3;
+}
+
+.bg_nav_item:active {
+    color: #F1CDB3;
+    border-bottom: 3px solid #F1CDB3;
+}
+.bg_nav_item:focus {
+    color:#F1CDB3;
+    border-bottom: 3px solid #F1CDB3;
+}
+
+
+
+body.dark {
+    overflow: hidden; 
+}
+
+#wrapper-firstslide2.background {
+    filter: brightness(40%)
+}
+#wrapper-firstslide2.light {
+    filter: brightness(100%)
 }
 
 }
+
+    
 @media (max-width:902px){
     .donation-wrapper{
         display: flex;
