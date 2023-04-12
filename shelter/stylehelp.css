@@ -9,6 +9,9 @@ body{
     margin: 0;
     
 }
+.burger-wrapth {
+    display: none;
+}
 
 .header{
    
