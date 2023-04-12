@@ -100,7 +100,7 @@ text-decoration: none;
 cursor: pointer;
 }
 
-nav-1:hover {
+.nav-1:hover {
     color: #F6F6F6;
 }
 .nav-1:active {
@@ -746,7 +746,7 @@ footer {
  #burger {
     display: flex;
     flex-direction: column;
-
+    padding-right:58px;
     width: 30px;
 
   }
@@ -828,7 +828,7 @@ footer {
   }
   
   #burger-menu.overlay{
-    transform: translateX(0);
+    transform: translateX(-59%);
   width: 320px;
     right: 0;
     bottom: 0;
